@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  <title>BMW Baby Racer III</title>
+  <!-- The following style tag is a workaround for a known bug with this challenge's unit tests -->
+  <!-- See: https://github.com/freeCodeCamp/testable-projects-fcc/issues/new -->
+  <style type="text/css">
+    @media (max-width: 1000px) {
+      #nav-bar {
+        display: flex;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section id="main">
+    <header id="header">
+      <img id="header-img" src="http://media/bmw-logo.svg" />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#about-section">About</a>
+        <a class="nav-link" href="#video-section">Video</a>
+        <a class="nav-link" href="#test-drive-section">Test Drive</a>
+      </nav>
+    </header>
+    <section id="page-content">
+      <div class="centered">
+        <h1>BMW Baby Racer III</h1>
+        <p>It’s time for some serious speed with this sporty baby racer in a new BMW brand design.</p>
+      </div>
+
+      <section id="about-section">
+        <div class="photo-with-text">
+          <div class="about-image-div">
+            <img class="about-image" src="media/black_and_orange.png" />
+          </div>
+          <div class="about-text-div">
+            Visual highlights include the speed dial and tachometer, not to mention the shiny bonnet and boot lid.
+          </div>
+        </div>
+
+        <div class="photo-with-text about-alt">
+          <div class="about-text-div">
+            This nifty little vehicle also boasts a horn, low-noise rubber tyres, a small turning circle and an
+            ergonomic steering wheel – including BMW logo.
+          </div>
+          <div class="about-image-div">
+            <img class="about-image" src="media/turquoise_and_caramel.png" />
+          </div>
+        </div>
+
+        <div class="photo-with-text">
+          <div class="about-image-div">
+            <img class="about-image" src="media/white_and_raspberry.png" />
+          </div>
+          <div class="about-text-div">
+            It’s rounded off by a comfortable soft seat and a tow-rope fitting. TÜV-certified For children aged 1–3.
+          </div>
+        </div>
+      </section>
+
+      <section id="video-section">
+        <div class="centered">
+          <div class='embed-container'><iframe id="video" src='https://www.youtube.com/embed/qfZJPEkwpfY' frameborder='0'
+              allowfullscreen></iframe></div>
+        </div>
+      </section>
+
+      <section id="test-drive-section">
+        <section id="form-container" class="centered">
+          <p>To arrange a test drive enter your email address below</p>
+          <section id="form-element-container">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <input id="email" name="email" type="email" placeholder="email address" />
+              <input type="submit" id="submit" />
+            </form>
+          </section>
+        </section>
+      </section>
+
+    </section>
+  </section>
+  <footer id="footer" class="centered">
+    This has nothing to do with BMW, it's a solution to a freeCodeCamp challenge.
+  </footer>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
